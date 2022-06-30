@@ -16,6 +16,7 @@ public class SortArray {
         Arrays.sort(arr);
         System.out.println("\nSorted array:");
         printArray(arr);
+        System.out.println("Create new branch");
     }
 
 // Print array
