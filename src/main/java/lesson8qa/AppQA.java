@@ -23,7 +23,7 @@ public class AppQA{
         person.bookHold = detective.nameBook;
        // person.dateStart = LocalDate.parse("30.06.2022");
         int days =person.countDaysHold (person.dateStart);
-        System.out.println("Reader " + person.name + "took book " + person.bookHold + " Count days " + days);
+        System.out.println("Reader " + person.name + " took book " + person.bookHold + " Count days " + days);
 
 
     }
