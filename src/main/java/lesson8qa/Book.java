@@ -7,7 +7,7 @@ public class Book {
     public int countPages;
 
     public void infoBook(){
-        System.out.println("Name book: " + nameBook + " \nauthor: " +authorBook +" \ntype book: " + type + " \ncount pages: " +countPages);
+        System.out.println("Name book: " + this.nameBook + " \nauthor: " +authorBook +" \ntype book: " + type + " \ncount pages: " +countPages);
     }
     public int remainPages(int readCount, int totalPages){
 
