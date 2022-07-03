@@ -1,6 +1,7 @@
 package lesson8qa;
 
 public class App {
+
     public static void main (String[] args){
 
         Book detective = new Book();
