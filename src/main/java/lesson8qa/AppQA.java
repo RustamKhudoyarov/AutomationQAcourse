@@ -1,6 +1,6 @@
 package lesson8qa;
 
-public class App {
+public class AppQA{
 
     public static void main (String[] args){
 
@@ -10,5 +10,8 @@ public class App {
         detective.authorBook = "Agatha Cristy";
         detective.countPages = 134;
         detective.infoBook();
+        // calc remain pages
+        int remainP = detective.remainPages(45,detective.countPages);
+        System.out.println("I reading  book " + detective.nameBook +". Remain gages + " + remainP);
     }
 }
