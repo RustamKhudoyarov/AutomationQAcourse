@@ -4,7 +4,7 @@ public class Emploee {
     private String name;
     private String lastname;
     private int year;
-    private String jobTitle;
+    private TypeJobTitle jobTitle;
     public Emploee(String name, String lastName, int year){
         this.name = name;
         this.lastname =lastName;
@@ -13,7 +13,7 @@ public class Emploee {
     }
     public Emploee(){}
 
-    public void setJobTitle(String jobTitle){
+    public void setJobTitle(TypeJobTitle jobTitle){
         this.jobTitle=jobTitle;
     }
     public String getInfo(){
