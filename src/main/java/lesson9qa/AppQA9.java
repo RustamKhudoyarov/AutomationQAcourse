@@ -28,6 +28,9 @@ public class AppQA9 {
         System.out.println("Now my dog " + myPet.getNickName()+ " is weight " + myPet.feedPet(345,myPet.getWeigth()));
         System.out.println("We went to walk. And now his weight is " + myPet.walkPet(weightTemp, 40) );
 
+        Cat myCat = new Cat("Kuzya", "sibirian" , 3);
+        System.out.println(myCat.getNickname() + " is " + myCat.getKind() + " cat. His weight is " + myCat.getWeight());
+        System.out.println("My cat said - " + myCat.soundCat());
 
 
     }

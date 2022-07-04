@@ -28,11 +28,18 @@ public class Cat {
     public float getWeight(){
         return weight;
     }
-
+    //default costructor
+    public Cat(){}
     public Cat(String nickname, String kind, float weight){
         this.nickname = nickname;
         this.kind = kind;
         this.weight =weight;
+    }
+
+    // Methods
+    public String soundCat(){
+        return "may - maya";
+
     }
 
 
