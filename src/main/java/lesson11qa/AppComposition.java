@@ -47,6 +47,8 @@ public class AppComposition {
         System.out.println(streetAddressOfDavid);
 
 
+        System.out.println(acer.getSystemBlock().getVideoCard().model);
+
 
 
 
